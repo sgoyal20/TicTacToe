@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title>Tickity Tackety Toe-cheese</title>
+    <style>
+      body {
+        background-color: #404040;
+        color: #FFFFFF;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="row">
+      <div class="col">
+        <canvas id="ttt"></canvas>
+      </div>
+      <div class="col">
+        <h1><b>Scoreboard</b></h1>
+        <br>
+        <div class="" id="xScore"></div>
+        <div class="" id="oScore"></div>
+      </div>
+    </div>
+    <br>
+    <p id='message'>Welcome to Tic-Tac-Toe!</p>
+    <script src="code.js"></script>
+    <br>
+    <button type="button" name="button" onclick="reset()">Reset</button>
+    <div class="d-none" id="xWinner" style="color:White">
+      <h1><b>Player X Wins !!</b></h1>
+    </div>
+    <div class="d-none" id="oWinner" style="color:White">
+      <h1><b>Player O Wins !!</b></h1>
+    </div>
+  </body>
+</html>
